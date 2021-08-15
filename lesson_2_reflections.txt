@@ -4,10 +4,26 @@ Initializing the repository creates a .git file that allows me to run git
 commands on the files in the repository.  I can now use commits to save
 different versions and utilize version-control on the files.
 
+
+
 2. How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The repository contains all the files that can be worked on using git and the
+working directory are those files in the directory that can be changed.  The
+staging area contains those files that have been changed and are waiting to
+be committed.
 
+The main value of having a staging area (as far as I can initially tell) is the
+ability to commit multiple files under one commit, thus a logical grouping of
+the files.  In java I might add a new class to a program and then add an
+instanciation of that class in the main method that is in another class.  If I
+could only commit one file at a time, I would have to commit the new class file
+and then the main method class in seperate commits.  With the staging area, I
+can add the two files and commit them together to have a more logical grouping
+of the files that were changed.
+
+  
 
 3. How can you use the staging area to make sure you have one commit per logical
 change?
