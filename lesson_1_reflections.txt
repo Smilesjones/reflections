@@ -76,4 +76,4 @@ diff) to find and repair any break.
 
 7. Now that you have your workspace set up, what do you want to try using Git for?
 
-I want to use git to work on all my coding projects.
+
