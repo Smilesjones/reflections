@@ -28,10 +28,20 @@ of the files that were changed.
 3. How can you use the staging area to make sure you have one commit per logical
 change?
 
+If I have multiple files that are involved in a logical change, then the staging
+area is useful to make sure all those files have been changed and then I can
+commit them all together.
+
 
 
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+If I am working on a big change, such as a new feature that has many different
+components, I might want to make a new branch of the program that incrementally
+incorporates the new feature.  This keeps the main program intact while I can
+develop the nwe feature.  Once it is complete and working how I want it, I can
+merge the branches.
 
 
 
