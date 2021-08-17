@@ -47,7 +47,9 @@ merge the branches.
 
 5. How do the diagrams help you visualize the branch structure?
 
-
+Just like data structures in programming, it is beneficial to see the
+relationship between the commit nodes in the branch structure.  It is helpful to
+see the flow of the commits and how the branches are related to each other.
 
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
