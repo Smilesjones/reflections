@@ -54,7 +54,12 @@ see the flow of the commits and how the branches are related to each other.
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The two branches get incorporated into one branch.  It is still represented as
+two branches that come together to a common node.  This is helpful to visually
+seperate different aspects of the program.  Each branch is a logical seperation
+in the program, though they are eventually added together.
 
+ 
 
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
