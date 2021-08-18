@@ -9,6 +9,10 @@ or as part of a portfolio.
 2. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
+It might be confusing if you are working with other programmers and their work
+is automatically being updated on your local repository.  You might be working
+on changes that might not work well with what others are doing.  It seems better
+to see what those changes are and decide to pull that work locally.
 
 
 3. Describe the differences between forks, clones, and branches.  When would you
