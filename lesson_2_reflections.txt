@@ -51,6 +51,8 @@ Just like data structures in programming, it is beneficial to see the
 relationship between the commit nodes in the branch structure.  It is helpful to
 see the flow of the commits and how the branches are related to each other.
 
+
+
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
@@ -63,3 +65,15 @@ in the program, though they are eventually added together.
 
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging is easier for the programmer.  I do not have to go through
+each file and compare the changes to make sure there are no conflicts, git does
+that for me.  However, there could be cases when git does not detect a conflict
+when there might be one.  Maybe two programmers are working on two different
+features that do not seem to have a conflict in the code, but only one of those
+features should really be included in the master.  If they are both merged, then
+the master might not be what the programmers want.
+
+Maybe one programmer makes an "add" function, while the other makes an
+"addition" function.  They both do the same thing, but have different names.
+This would be unnecessary code that git might not detect.
