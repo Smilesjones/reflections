@@ -19,6 +19,20 @@ to see what those changes are and decide to pull that work locally.
 use one instead of another?
 
 
+Forks are GitHub's version of clones.  A Fork copies the entire repository and
+allows the user who copied it to manipulate that copy.  A Clone is a copy of a
+repository on GitHub to a local Git, so the user can manipulate it locally.
+A Branch is not a copy but a distinct path that allows the user to commit
+changes that will not effect other branches, until those branches are merged.
+
+If I am trying to get a copy of a repository on my GitHub account, I would
+choose Fork.  If I am trying to get a copy of a repository locally, so I can
+make changes on my own computer, I would use clone.  Finally, if I am working on
+a new feature or experimenting with a program and do not want to change the main
+branch, I would created a new branch using ... branch.
+
+
+
 4. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
