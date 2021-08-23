@@ -36,6 +36,14 @@ branch, I would created a new branch using ... branch.
 4. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
+This is beneficial because you can see the most up to date progress of the code
+without having to access GitHub.  This will obviously benefit you if you know
+you will be working offline for a certain period of time, but even if you are
+still able to access GitHub, most of the work an individual programmer does is
+going to be on their local machine.  So, it is helpful to have a copy of the
+most updated remote state locally to compare and work from.
+
+
 
 5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
