@@ -48,6 +48,16 @@ most updated remote state locally to compare and work from.
 5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
+I could collaborate with others just by sending copies of a program back and
+forth over the internet.  As we make changes to the program, we could just write
+comments on what we did and review those changes.
+
+Though Git/GitHub can be a little confusing when first learning, all the built
+in features makes collaborating far easier than doing it manually as I described
+above.  The version-control of Git  helps to keep a project organized and safe while
+GitHub provides a great place to share and review changes.
+
+
 
 6. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
