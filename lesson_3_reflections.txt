@@ -62,3 +62,16 @@ GitHub provides a great place to share and review changes.
 6. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
+A better time to make changes to a branch rather than the master could include
+if I working on a new feature, experimenting with the code, maybe if I am trying
+to clean-up the code.  I think it is probably usually better to just put it on a
+branch, as a way of protecting the master from any bugs or adverse effects.
+
+If I am the only one working on a project and am in the early stages of
+developing the code, adding to the master probably makes sense.  I would see it
+as saving the changes as I biuld the program.  However, if a program is already
+developed and I am adding to it, using a branch would probably be safer,
+especiially if working with others.
+
+Using a branch with GitHub is more cumbersome, but it is safer and probably more
+efficient in the long run. 
